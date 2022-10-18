@@ -1,26 +1,15 @@
 import 'package:belajarflutter/column.dart';
 import 'package:belajarflutter/row.dart';
 import 'package:belajarflutter/row_column.dart';
+import 'package:belajarflutter/tugas_statefull.dart';
 
 import './container.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(ColumnWidget());
-  // MaterialApp(
-  //   home: Scaffold(
-  //     body: SafeArea(
-  //       child: Row(
-  //         children: [
-  //           buatKotak(Colors.greenAccent, 100),
-  //           buatKotak(Colors.orangeAccent, 70),
-  //           buatKotak(Colors.greenAccent, 50),
-  //           buatKotak(Colors.greenAccent, 90),
-  //         ],
-  //       ),
-  //     ),
-  //   ),
-  // ));
+  runApp(MaterialApp(
+    home: CounterWidget(),
+  ));
 }
 
 // class MyApp extends StatelessWidget {
