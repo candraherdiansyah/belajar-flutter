@@ -36,6 +36,7 @@ dependencies:
   awesome_snackbar_content: ^0.0.8
   splash_screen_view: ^3.0.0
   http: ^0.13.5
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   flutter_test:
